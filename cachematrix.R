@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions demonstrate the lexical scoping feature of the R language.
 
-## Write a short comment describing this function
+## makeCachematix contains code to get the value of a matrix, set the value
+## of a matrix, get the inverse of a square matrix, and set the inverse of 
+## a square matrix.  The 
 
 makeCacheMatrix <- function(x = matrix()) {
         
@@ -21,7 +22,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function takes the inverse of a matrix.  It first checks to see if there
+## is a cached version of the inverse before computing it again.  
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
